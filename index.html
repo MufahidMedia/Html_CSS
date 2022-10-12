@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=S, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MFH STORE</title>
+</head>
+<body>
+    <div class="container">
+        <div class="welcome">😈 WELCOME TO MY GHOS SHOES 😈</div>
+        <div class="cta">
+          <model-viewer src="scene.gltf" camera-controls
+            camera-orbit="45deg 50deg" disable-zoom auto-rotate
+            shadow-intensity="1"></model-viewer>
+        </div>
+
+        <div class="newBox" id="newBox">
+            <div class="productBox" id="productBox1">
+                <img src="compas.1.jpg" alt="">
+                <div class="titleBox">Testing box 1</div>
+                <div class="descriptionBox">Deskripsi box 1</div>
+            </div>
+            <div class="productBox" id="productBox2">
+                <img src="compas.2.jpg" alt="">
+                <div class="titleBox">Testing box 1</div>
+                <div class="descriptionBox">Deskripsi box 1</div>
+            </div>
+        </div>
+
+
+
+        <div class="wrapper" id="wrapper">
+            <div class="card">
+                <div class="product" id="prduct1" onclick="getDetail(1)">
+                    <img src="compas.1.jpg" alt="">
+                </div>
+                <div class="detail">
+                    <div class="title">Compas Local Pride Blue</div>
+                    <div class="description">Sepatu local keren</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="product" id="prduct2" onclick="getDetail(2)">
+                    <img src="compas.2.jpg" alt="">
+                </div>
+                <div class="detail">
+                    <div class="title">Compas Local Pride Black</div>
+                    <div class="description">Sepatu local autentic dalam negri</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="product" id="prduct3" onclick="getDetail(3)">
+                    <img src="patrobas.3.jpeg" alt="">
+                </div>
+                <div class="detail">
+                    <div class="title">Patrobas Black Local Pride</div>
+                    <div class="description">Sepatu Local keren produk dalam negri </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="product" id="prduct4" onclick="getDetail(4)">
+                    <img src="ventela.6.jpg" alt="">
+                </div>
+                <div class="detail">
+                    <div class="title">Ventela Black Local Pride</div>
+                    <div class="description">Sepatu dalam negri yang berkualitas tinggi</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="product" id="prduct5" onclick="getDetail(5)">
+                    <img src="ventela.7.webp" alt="">
+                </div>
+                <div class="detail">
+                    <div class="title">Ventela Black Local Pride</div>
+                    <div class="description">Sepatu dalam negri yang berkwalitas</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="product" id="prduct6" onclick="getDetail(6)">
+                    <img src="ventela.8.jpg" alt="">
+                </div>
+                <div class="detail">
+                    <div class="title">Ventela Black Local Pride</div>
+                    <div class="description">Sepatu ventela asli Indonesia</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="top-item">
+        <div class="top-item-wrapper">
+            <div class="top-item-row">
+                <img src="compas.1.jpg" alt="">
+                <div class="top-item-detail">
+                    <h3>Compas Local Produck Indonesia Pride</h3>
+                    <p>
+                        Sepatu local produck indonesi yang berkualitas dunia 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module"
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script src="tweak.js"></script>
+</body>
+</html>
+
